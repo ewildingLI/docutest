@@ -5,7 +5,7 @@ Adding some text, so that there is a change. And adding more text.
 
 When using Bandicam for the first time, don't forget to buy a license.
 
-Removed some rules.
+Added some rules again.
 
 **Required features**
 
