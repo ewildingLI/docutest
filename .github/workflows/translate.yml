@@ -23,6 +23,8 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
+          provider: 'openai'
+          model: 'gpt-4o-mini'
           inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'DE/**/*.md'
           languages: 'German'
@@ -31,6 +33,8 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
+          provider: 'openai'
+          model: 'gpt-4o-mini'
           inputFiles: ${{ steps.changed_files.outputs.files }}
           outputFiles: 'FR/**/*.md'
           languages: 'French'
