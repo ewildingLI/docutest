@@ -1,38 +1,28 @@
-- name: GPT Translate
-  # You may pin to the exact commit or the version.
-  # uses: 3ru/gpt-translate@b8ddfab17c3ad47b59ebe1906724dddfe460c304
-  uses: 3ru/gpt-translate@v1.2.0-beta
-  with:
-    # GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT)
-    token: # optional, default is ${{ github.token }}
-    # API Key
-    apikey: 
-    # AI Provider
-    provider: # optional, default is openai
-    # The language model to use.
-    model: # optional, default is gpt-4o
-    # The input prompt to generate the text from
-    prompt: # optional, default is Please translate the given text into naturalistic {targetLanguage}.
-    # The system prompt to use that specifies the behavior of the model
-    systemPrompt: # optional
-    # Replace the base path of openai api
-    basePath: # optional
-    # Input files to translate
-    inputFiles: # optional
-    # Output files to save
-    outputFiles: # optional
-    # Language to translate to
-    languages: # optional
-    # Controls diversity via nucleus sampling (0 to 1)
-    top_p: # optional, default is 0.5
-    # Controls randomness of the output (0 to 2)
-    temperature: # optional, default is 0.3
-    # Maximum number of tokens in the chat completion
-    max_tokens: # optional
-    # Penalizes new tokens based on their existing presence (-2 to 2)
-    presence_penalty: # optional, default is 0
-    # Penalizes new tokens based on their frequency (-2 to 2)
-    frequency_penalty: # optional, default is 0
-    # Seed value for deterministic sampling
-    seed: # optional
-          
+name: GPT Translate per Commit
+ 
+on:
+  push:
+    branches:
+      - main
+jobs:
+  gpt_translate:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout repository with two latest commits
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+ 
+      - name: get changed files name
+        id: changed_files
+        run: |
+          echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+ 
+      - name: Run GPT Translate
+        uses: 3ru/gpt-translate@master
+        with:
+          apikey: ${{ secrets.OPENAI_API_KEY }}
+          inputFiles: ${{ steps.changed_files.outputs.files }}
+          outputFiles: 'DE/**/*.md FR/**/*.md'
+          languages: 'German French'
