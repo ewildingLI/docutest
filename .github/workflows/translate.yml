@@ -23,6 +23,7 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
-          inputFiles: ${{ steps.changed_files.outputs.files }}
+          #inputFiles: ${{ steps.changed_files.outputs.files }}
+          inputFiles: '*.md'
           outputFiles: 'DE/**/*.md FR/**/*.md'
           languages: 'German French'
