@@ -5,6 +5,8 @@ Adding some text, so that there is a change. And adding more text.
 
 When using Bandicam for the first time, don't forget to buy a license.
 
+Applied some rules.
+
 **Required features**
 
 - [ ] Video and GIF support
