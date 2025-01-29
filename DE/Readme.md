@@ -1,6 +1,6 @@
-# Über
+# Über dieses Projekt
 
-Dieses Repository wird verwendet, um festzustellen, ob [GitHub](https://github.com) zur Hosting von Dokumentationen genutzt werden kann. Ich füge ein wenig Text hinzu, damit es eine Änderung gibt. Und ich füge noch mehr Text hinzu.
+Dieses Repository wird verwendet, um zu bestimmen, ob [GitHub](https://github.com) zur Bereitstellung von Dokumentationen genutzt werden kann. Ich füge ein wenig Text hinzu, um eine Änderung herbeizuführen. Und ich füge noch mehr Text hinzu.
 
 Wenn Sie Bandicam zum ersten Mal verwenden, vergessen Sie nicht, eine Lizenz zu erwerben.
 
@@ -9,7 +9,7 @@ Jetzt habe ich etwas auf Deutsch hinzugefügt, um zu sehen, ob es ins Englische 
 **Erforderliche Funktionen**
 
 - [ ] Unterstützung für Videos und GIFs
-- [ ] Teilbar über Links mit Personen ohne Konto
+- [ ] Teilen über Links mit Personen ohne Konto möglich
 - [ ] Mehrsprachige Unterstützung
 
 **Optionale Funktionen**
