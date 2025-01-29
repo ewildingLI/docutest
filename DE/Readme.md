@@ -1,8 +1,8 @@
 # Über dieses Projekt
 
-Dieses Repository wird verwendet, um zu bestimmen, ob [GitHub](https://github.com) zur Bereitstellung von Dokumentationen genutzt werden kann. Ich füge ein wenig Text hinzu, um eine Änderung herbeizuführen. Und ich füge noch mehr Text hinzu.
+Dieses Repository wird verwendet, um zu prüfen, ob [GitHub](https://github.com) zur Bereitstellung von Dokumentationen geeignet ist. Ich füge ein wenig Text hinzu, um eine Änderung herbeizuführen. Und ich füge noch mehr Text hinzu.
 
-Wenn Sie Bandicam zum ersten Mal verwenden, vergessen Sie nicht, eine Lizenz zu erwerben.
+Wenn Sie Bandicam zum ersten Mal verwenden, denken Sie daran, eine Lizenz zu erwerben.
 
 Jetzt habe ich etwas auf Deutsch hinzugefügt, um zu sehen, ob es ins Englische oder Französische übersetzt wird.
 
