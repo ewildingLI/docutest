@@ -1,13 +1,14 @@
-# Über
+# À propos
 
-Dieses Repository wird verwendet, um herauszufinden, ob [GitHub](https://github.com) zur Bereitstellung von Dokumentationen genutzt werden kann. Ich füge etwas Text hinzu, damit es eine Änderung gibt. Und ich füge noch mehr Text hinzu.
+Ce dépôt est utilisé pour déterminer si [GitHub](https://github.com) peut être utilisé pour héberger de la documentation. J'ajoute du texte pour qu'il y ait un changement. Et j'ajoute encore plus de texte.
 
-**Erforderliche Funktionen**
+Lorsque vous utilisez Bandicam pour la première fois, n'oubliez pas d'acheter une licence.
 
-- [ ] Unterstützung für Videos und GIFs
-- [ ] Teilbar über Links an Personen ohne Konto
-- [ ] Unterstützung für mehrere Sprachen
+**Fonctionnalités requises**
 
-**Optionale Funktionen**
+- [ ] Support vidéo et GIF
+- [ ] Partageable via des liens avec des personnes sans compte
+- [ ] Support multilingue
 
-- [ ] Bearbeitungshistorie
+**Fonctionnalités optionnelles**
+- [ ] Historique des modifications
