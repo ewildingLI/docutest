@@ -9,16 +9,6 @@ jobs:
     runs-on: ubuntu-latest
  
     steps:
-      - name: Checkout repository with two latest commits
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
- 
-      - name: get changed files name
-        id: changed_files
-        run: |
-          echo "files=$(git diff --name-only HEAD^ HEAD | grep '\.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
- 
       - name: Run GPT Translate
         uses: 3ru/gpt-translate@master
         with:
