@@ -8,6 +8,12 @@ jobs:
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
         with:
+<<<<<<< HEAD
           find: '[(.*?).mp4](assets/(.*?).mp4)'
           replace: '<video width="254" height="251" src="https://github.com/ewildingLI/docutest/assets/$2.mp4" controls></video>'
           regex: false
+=======
+          find: '\[(.*?)\.mp4\]\(assets/(.*?)\.mp4\)'
+          replace: '<video width="254" height="251" src="https://github.com/ewildingLI/docutest/assets/$2.mp4" controls></video>'
+          regex: false
+>>>>>>> 302f149 (edited workflow)
