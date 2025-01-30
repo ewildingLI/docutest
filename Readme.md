@@ -14,4 +14,15 @@ Added some rules again.
 - [ ] Multi-language support
 
 **Optional Features**
+
 - [ ] Editing history
+
+Adding an image:
+
+![](assets/20250130_104805_lama.jpg)
+
+Adding a video
+
+
+[20250130_105039_lama.mp4](assets/20250130_105039_lama.mp4)
+
