@@ -1,0 +1,13 @@
+name: find replace
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "\[(.*?)\.mp4\]\(assets/(.*?)\.mp4\)"
+          replace: "<video width="254" height="251" src="https://github.com/ewildingLI/docutest/assets/$2.mp4" controls></video>"
+          regex: false
