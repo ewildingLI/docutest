@@ -11,7 +11,8 @@ jobs:
           find: '\[(.*?)\.mp4\]\(assets/(.*?)\.mp4\)'
           replace: '<video width="254" height="251" src="https://github.com/ewildingLI/docutest/assets/$2.mp4" controls></video>'
           regex: true
-      - uses: mingjun97/file-regex-replace
+      - name: Find and Replace 2
+        uses: mingjun97/file-regex-replace
         with:
           regex: '\[(.*?)\.mp4\]\(assets/(.*?)\.mp4\)'
           replacement: '<video width="254" height="251" src="https://github.com/ewildingLI/docutest/assets/$2.mp4" controls></video>'
