@@ -1,7 +1,7 @@
 # About
 
 This repository is used to find out if [github](https://github.com) can be used for hosting Documentation.
-Adding some text, so that there is a change. And adding more text.
+Adding some text, so that there is a change. And adding more text. Let's see...
 
 When using Bandicam for the first time, don't forget to buy a license.
 
