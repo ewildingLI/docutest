@@ -1,25 +1,26 @@
 # Über
 
-Dieses Repository wird verwendet, um herauszufinden, ob [GitHub](https://github.com) für das Hosting von Dokumentationen genutzt werden kann. Ich füge etwas Text hinzu, damit sich etwas ändert. Und ich füge noch mehr Text hinzu. Mal sehen...
+Dieses Repository wird verwendet, um festzustellen, ob [GitHub](https://github.com) zur Bereitstellung von Dokumentationen genutzt werden kann. 
+Lassen Sie uns ein wenig Text hinzufügen, damit es eine Veränderung gibt. Und fügen wir noch mehr Text hinzu. Mal sehen...
 
-Wenn du Bandicam zum ersten Mal verwendest, vergiss nicht, eine Lizenz zu kaufen.
+Wenn Sie Bandicam zum ersten Mal verwenden, denken Sie daran, eine Lizenz zu erwerben.
 
-Ich habe einige Regeln wieder hinzugefügt.
+Fügen wir erneut einige Regeln hinzu.
 
 **Erforderliche Funktionen**
 
 - [ ] Video- und GIF-Unterstützung
-- [ ] Teilbar über Links an Personen ohne Konto
+- [ ] Teilbar über Links für Personen ohne Konto
 - [ ] Mehrsprachige Unterstützung
 
 **Optionale Funktionen**
 
-- [ ] Bearbeitungshistorie
+- [ ] Änderungsverlauf
 
-Ein Bild hinzufügen:
+Bild hinzufügen:
 
 ![](assets/20250130_104805_lama.jpg)
 
-Ein Video hinzufügen:
+Video hinzufügen:
 
 [20250130_105039_lama.mp4](assets/20250130_105039_lama.mp4)
