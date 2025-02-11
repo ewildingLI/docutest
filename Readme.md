@@ -9,19 +9,20 @@ Added some rules again. I added text.
 
 **Required features**
 
-- [ ] Video and GIF support
-- [ ] Shareable via links to people without account
-- [ ] Multi-language support
+- [ ]  Video and GIF support
+- [ ]  Shareable via links to people without account
+- [ ]  Multi-language support
 
 **Optional Features**
 
-- [ ] Editing history
+- [x]  Editing history
 
 Adding an image:
 
 ![](assets/20250130_104805_lama.jpg)
 
 Adding an image:
+
 ![giphy](https://github.com/user-attachments/assets/6c9ed404-b84e-437a-953d-46ec8094ee1f)
 
 Adding a video
