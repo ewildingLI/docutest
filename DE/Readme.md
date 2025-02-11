@@ -1,10 +1,10 @@
 # Über
 
-Dieses Repository wird verwendet, um herauszufinden, ob [GitHub](https://github.com) für das Hosting von Dokumentationen genutzt werden kann. Ich füge etwas Text hinzu, damit sich etwas ändert. Und ich füge noch mehr Text hinzu. Mal sehen...
+Dieses Repository wird verwendet, um herauszufinden, ob [GitHub](https://github.com) für das Hosting von Dokumentationen genutzt werden kann. Ich füge etwas Text hinzu, damit sich etwas ändert. Und ich füge mehr Text hinzu. Mal sehen...
 
 Wenn du Bandicam zum ersten Mal verwendest, vergiss nicht, eine Lizenz zu kaufen.
 
-Ich habe einige Regeln wieder hinzugefügt.
+Ich habe einige Regeln wieder hinzugefügt. Ich habe Text hinzugefügt.
 
 **Erforderliche Funktionen**
 

@@ -1,11 +1,10 @@
 # À propos
 
-Ce dépôt est utilisé pour déterminer si [github](https://github.com) peut être utilisé pour héberger de la documentation. 
-Ajoutons un peu de texte pour qu'il y ait un changement. Et ajoutons encore plus de texte. Voyons...
+Ce dépôt est utilisé pour déterminer si [github](https://github.com) peut être utilisé pour héberger de la documentation. J'ajoute un peu de texte pour qu'il y ait un changement. Et j'ajoute encore plus de texte. Voyons voir...
 
 Lorsque vous utilisez Bandicam pour la première fois, n'oubliez pas d'acheter une licence.
 
-Ajout de quelques règles à nouveau.
+J'ai de nouveau ajouté quelques règles. J'ai ajouté du texte.
 
 **Fonctionnalités requises**
 
